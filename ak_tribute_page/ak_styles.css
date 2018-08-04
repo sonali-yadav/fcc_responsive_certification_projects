@@ -73,3 +73,11 @@ img  {
 .footer {
 	background-color: var(--fifth-main-color) !important;
 }
+.grid_div {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.grid_item {
+	max-height: 20rem;
+	max-width: 20rem;
+}
