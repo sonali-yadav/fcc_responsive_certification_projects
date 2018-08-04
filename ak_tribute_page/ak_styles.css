@@ -63,6 +63,10 @@ img  {
 .edu_div {
 	background-color: var(--third-main-color) !important;
 }
+.politics_div {
+	background: url("images/back.jpg") fixed no-repeat;
+	background-size: cover;
+}
 .awards_div {
 	background-color: var(--fourth-main-color) !important;
 }
