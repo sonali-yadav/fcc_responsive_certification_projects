@@ -5,9 +5,7 @@
 :root {
 	--main-color: rgba(133,30,62,1);
 	--sec-main-color: rgba(101,30,62,1);
-	--third-main-color: rgba(69,30,62,1);
-	--fourth-main-color: rgba(37,30,62,1);
-	--fifth-main-color: rgba(6,30,62,1);
+	--third-main-color: rgba(3,18,36,1);
 	--text-color: #ffffff;
 
 }
@@ -45,7 +43,7 @@ img  {
 	text-align: center;
 }
 .main_div {
-	background-color: var(--fourth-main-color);
+	background-color: var(--third-main-color);
 }
 .inl_block {
 	display: inline-block;
@@ -61,23 +59,29 @@ img  {
 	margin-bottom: 0 !important;
 }
 .edu_div {
-	background-color: var(--third-main-color) !important;
+	background-color: var(--sec-main-color) !important;
 }
 .politics_div {
 	background: url("images/back.jpg") fixed no-repeat;
 	background-size: cover;
 }
 .awards_div {
-	background-color: var(--fourth-main-color) !important;
+	background-color: var(--main-color) !important;
 }
 .footer {
-	background-color: var(--fifth-main-color) !important;
+	background-color: var(--third-main-color) !important;
 }
-.grid_div {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+.rt_text {
+	text-align: right;
 }
-.grid_item {
-	max-height: 20rem;
-	max-width: 20rem;
+.praise_div {
+	background-color: var(--text-color) !important;
+}
+.praise_text {
+	font-size: 1.5em !important;
+}
+.social {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
 }
